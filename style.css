@@ -1,0 +1,60 @@
+body, a{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-family: "inter", sans-serif;
+    text-decoration: none;
+    margin: 50px 0px 50px 0px;
+}
+
+img {
+    width: 70px;
+    border-radius: 100px;
+    animation: intro 1.5s;
+}
+
+p {
+    font-size: 14px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    width: fit-content;
+    padding: 10px 40px 20px 40px;
+    border-radius: 20px;
+    animation: intro 1s;
+}
+
+.link {
+background-color: hsl(0, 0%, 20%);
+text-align: center;
+padding: 12px 80px 12px 80px;
+border-radius: 10px;
+font-weight: 700;
+transition: 0.5s;
+
+}
+
+.link:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: white;
+    cursor: pointer;
+}
+
+.lime {
+    color: hsl(75, 94%, 57%);   
+    margin: -15px 0 -15px 0;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+
+@keyframes intro {
+    0% {
+        opacity: 0%;
+        transform: translate(-10px, -10px);
+       }
+}
